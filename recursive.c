@@ -18,8 +18,9 @@ int fibo(int n){
 int main(){
     int n, fibo_n;
     char cmd;
+    int i = 1;
 
-    for(;;){
+    while(i==1){
     printf("Please enter a positive integer: \n");
     printf("(Press [enter] to continue or [q] to quit.) \n");
     scanf("%d%c", &n, &cmd);
@@ -27,7 +28,7 @@ int main(){
     printf("The command is %c", cmd);
     
     if(cmd == 'q'){
-        return 0;
+        i = 0;
     }
 
     fibo_n = fibo(n);
