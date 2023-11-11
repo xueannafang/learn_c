@@ -17,11 +17,23 @@ int fibo(int n){
 
 int main(){
     int n, fibo_n;
+    char cmd;
+
+    for(;;){
     printf("Please enter a positive integer: \n");
-    scanf("%d", &n);
+    printf("(Press [enter] to continue or [q] to quit.) \n");
+    scanf("%d%c", &n, &cmd);
     printf("The %d th number of the Fibbonacci is: \n", n);
+    printf("The command is %c", cmd);
+    
+    if(cmd == 'q'){
+        return 0;
+    }
+
     fibo_n = fibo(n);
     printf("%d", fibo_n);
+    }
+    
 
     return 0;
 }
