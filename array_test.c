@@ -23,7 +23,7 @@ int test_mat[2][3] = {{1, 2, 3}, {4, 5, 5}};
 char test_string[] = "Hey there, I'm not using Whatsapp.";
 
 char test_string_2[] = " something to cat.";
-char empty_string[];
+char empty_string[50];//the string to be copied must be an empty one 
 
 int main(){
     int i = 4;
@@ -52,20 +52,24 @@ int main(){
     //string addition need to use strcat function as below:
     //note that the new string will be stored in the first string.
 
-    strcat(test_string, test_string_2);
-    printf("Concated string: %s. \n", test_string);
-    printf("size of concated string using strlen: %d. \n", strlen(test_string));
-    printf("size of concated string using sizeof: %d. \n", sizeof(test_string));
+    // strcat(test_string, test_string_2);
+    // printf("Concated string: %s. \n", test_string);
+    // printf("size of concated string using strlen: %d. \n", strlen(test_string));
+    // printf("size of concated string using sizeof: %d. \n", sizeof(test_string));
     
 
     //copy string 1 to string 2
     strcpy(empty_string, test_string);
+
+    // strcpy(test_string, test_string_2);
     printf("knock knock.\n");
     
-    printf("string 1: %s. \n", test_string);
-    printf("copied string: %s. \n", empty_string);
+    // printf("string 1: %s. \n", test_string);
+    // printf("copied string: %s. \n", test_string);
 
-
+    //compare different strings
+    printf("Difference? %d\n.", strcmp(test_string, test_string_2));
+    printf("Difference 2? %d\n.", strcmp(empty_string, test_string));
 
 
     return 0;
