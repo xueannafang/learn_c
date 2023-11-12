@@ -67,7 +67,7 @@ int main(){
     // printf("string 1: %s. \n", test_string);
     // printf("copied string: %s. \n", test_string);
 
-    //compare different strings
+    //compare different strings, return 0 if different, 1 if same
     printf("Difference? %d\n.", strcmp(test_string, test_string_2));
     printf("Difference 2? %d\n.", strcmp(empty_string, test_string));
 
