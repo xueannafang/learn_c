@@ -30,6 +30,7 @@ int main(){
         //More on EOF: getc and some other file reading functions return EOF (end of file) when they reach the end of file.
         //The file pointer after reading a particular part of the file, will move to the last read character.
         
+        //another way to break out the loop is to write !feof(fptr)
         printf("\nThe file will now be closed.\n");
         
     }
