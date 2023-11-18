@@ -27,6 +27,8 @@ int main(){
             printf("%c", ch);
 
         } while(ch != EOF);
+        //More on EOF: getc and some other file reading functions return EOF (end of file) when they reach the end of file.
+        //The file pointer after reading a particular part of the file, will move to the last read character.
         
         printf("\nThe file will now be closed.\n");
         
