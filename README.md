@@ -2,7 +2,7 @@
 
  This is my playground to learn C;
 
- I first met C about 15 years ago.. as a little project to control a virtual robot to walk through a map and do some simple operations. That didn't work perfectly and I was scared by lots of {;{;{;}}} before I've even known enough English words, nor basic programming thoughts.. (In the end, the younger version me recited 18 pages of codes, which is absolutely the wrong way of learning coding as I realised a few years later..)
+ I first met C about 15 years ago.. as a little project to control a virtual robot to walk through a map and do some simple operations. That didn't work perfectly and I was scared by lots of {;{;{;}}} before I knew enough English words or basic programming thoughts.. (In the end, the younger version me recited 18 pages of codes, which is absolutely the wrong way of learning coding as I realised a few years later..)
  
  It's better now since I've got some Python knowledge! And I guess learning C is still very important as it can help to understand deeper in how computer works, and how other higher level languages work. Most importantly, it helps to know the complexity of some basic operations we take for granted in Python, and therefore we can design the algorithm in a more efficient way in the future..
 
