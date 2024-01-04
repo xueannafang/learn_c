@@ -46,7 +46,7 @@ Impressed by the complexity of matrix multiplication.
 Simple file operation with C. Pointer introduced.
 
 - [read_csv](https://github.com/xueannafang/learn_c/blob/main/read_csv.c)
-Handle more complicated situation, with text and deliminator. Struct introduced.
+Handle more complicated situation, with text and delimiter. Struct introduced.
 
 ... A few more practice is available on CodeWars ... 
 
