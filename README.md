@@ -53,6 +53,6 @@ Handle more complicated situation, with text and delimiter. Struct introduced.
 ------------------------
 Note added in the middle of learning:
 
-Simply learning syntax and functions becomes not enough. Attention need to be paid on data structures..
+Simply learning syntax and functions becomes not enough. Attention need to be paid on [data structures](https://github.com/xueannafang/learn_data_structure)..
 
 tbc!
